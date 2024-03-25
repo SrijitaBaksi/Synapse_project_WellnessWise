@@ -1,0 +1,1088 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}  
+/* .container-fluid{
+    background-color: violet;
+} */
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100000000;
+}
+#main_logo{
+    /* border: 1px solid violet; */
+    border-radius: 10px;
+}
+#navbarSupportedContent{
+    margin-left: 160px;
+}
+.nav-link{
+    color: purple;
+    font-size: 19px;
+}
+#home:hover{
+    color: pink;
+}
+.nav-link:hover{
+    color: pink;
+}
+.nav-item{
+    display: flex;
+}
+#icon_image{
+    margin-top: 7px;
+}
+.dropdown-item{
+    color: purple;
+}
+.dropdown-item:hover{
+    color: pink;
+}
+.btn{
+    color: purple;
+    border: 2px solid purple;
+}
+.btn:hover{
+    background-color: purple;
+}
+.form-control{
+    width: 230px;
+    background-color: rgb(246, 233, 235);
+}
+
+#prev{
+    background-color: rgb(20, 20, 20);
+    color: black;
+    width: 30px;
+    height: 84px;
+    border-radius: 11px;
+    position: absolute;
+}
+
+#next{
+    background-color: rgb(20, 20, 20);
+    color: black;
+    width: 30px;
+    height: 84px;
+    border-radius: 11px;
+    position: absolute;
+}
+
+#btn1,#btn2,#btn3{
+    color: black;
+    background-color: black;
+}
+
+#label1,#label2,#label3{
+    color: purple;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    margin-bottom: 250px;
+    text-align: left;
+    
+}
+
+#label1 h5, #label2 h5, #label3 h5{
+    font-weight: bold;
+    font-size: 3.5rem;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#label1 p, #label2 p, #label3 p{
+    font-size: 1.5rem;
+    animation: fadeIn 6s;
+}
+
+.carousel-item img{
+    opacity: 0.7;
+}
+
+.bttn{
+    display: flex;
+    flex-direction: row;
+}
+
+#bttn1,#bttn3,#bttn5{
+    padding: 15px 30px;
+    margin-right: 35px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    animation: 1.5s fadeInUp;
+}
+
+#bttn2,#bttn4,#bttn6{
+    padding: 15px 30px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    animation: 1.5s fadeInUp;
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+}
+
+#bttn2:hover,#bttn4:hover,#bttn6:hover{
+    background-color: rgb(244, 141, 244);
+}
+
+#bttn1:hover,#bttn3:hover,#bttn5:hover{
+    background-color: rgb(244, 141, 244);
+}
+
+.services{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.services h2{
+    font-weight: bold;
+    font-size: 3.0rem;
+    color: purple;
+}
+
+.services p{
+    font-size: 20px;
+}
+
+.subService{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.card1, .card2, .card3{
+    /* border: 2px solid red; */
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    padding: 5px 35px;
+    align-items: center;
+}
+
+.img1{
+    border-radius: 50px;
+    border: 1px solid violet;
+    animation: 1.5s fadeInUp;
+}
+
+#about{
+    background-image: url(handshake.png);
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#about::before{
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background-color: purple;
+}
+.info1, .info2, .info3, .info4{
+    display: flex;
+    margin: 100px 65px;
+    z-index: 1000;
+    color: white;
+}
+
+#icn4, #icn1, #icn2, #icn3{
+    color: black;
+    margin-right: 20px;
+    color: white;
+}
+
+#icn1{
+    margin-top: 20px;
+}
+#subInfo1 h3, #subInfo2 h3, #subInfo3 h3, #subInfo4 h3{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#subInfo1 p, #subInfo2 p, #subInfo3 p, #subInfo4 p{
+    font-size: 30px;
+}
+
+.about_section{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about_section h2{
+    font-weight: bold;
+    font-size: 3.0rem;
+    color: purple;
+}
+
+.about_section p{
+    font-size: 20px;
+}
+
+.sub_about{
+    display: flex;
+    margin-top: 100px;
+}
+
+.image_div{
+    margin-right: 23px;
+}
+
+.text_div{
+    /* border: 5px solid red; */
+    color: black;
+    padding: 20px 0px;
+}
+.text_div p{
+    padding: 0px 30px;
+}
+.text_div h2{
+    /* border: 5px solid red; */
+    color: purple;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+
+.bullets{
+    justify-content: left;
+    text-align: left;
+    align-items: end;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bullet1 ul li{
+    list-style: none;
+    color: purple;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.bullet2 ul li{
+    list-style: none;
+    color: purple;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+#hr{
+    width: 90px;
+    height: 5px;
+    /* color: purple; */
+    background-color: purple;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+#emergency{
+    background-image: url(emergency.jpg);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#emergency::before{
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: purple;
+}
+.emergency_text{
+    color: white;
+    z-index: 5000;
+}
+
+.emergency_text h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.emergency_text p{
+    text-align: center;
+}
+
+.emergency_button{
+    display: flex;
+    justify-content: center;
+    z-index: 5000;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#butin1{
+    padding: 15px 30px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    animation: 1.5s fadeInUp;
+    margin-right: 40px;
+}
+
+#butin2{
+    background-color: transparent;
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    animation: 1.5s fadeInUp;
+}
+
+#butin2:hover{
+    background-color: white;
+    color: purple;
+    border: 2px solid rgb(74, 2, 74);
+
+}
+
+#butin1:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.sub_emergency{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.sub_booking{
+    display:flex;
+    justify-content: center;
+}
+.book1,.book2,.book3{
+    width: 350px;
+    margin: 5px 30px;
+    padding: 50px 40px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px grey;
+    height: 400px;
+}
+/* .book1:hover,.book2:hover,.book3:hover{
+    transform:scale(1.05);
+    transition:transform 0.5s ease-in-out;
+} */
+
+.book_info{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.book_info h2{
+    color: purple;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.book_info p{
+    font-size: 20px;
+}
+
+#details0{
+    margin-top: 45px;
+}
+
+.bt{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: purple;
+    margin-top: 45px;
+}
+
+#bt1,#bt2{
+    margin-top: 75px;
+}
+.bt:hover{
+    color: purple;
+    background-color: transparent;
+}
+
+.appointment_section{
+    margin-top: 70px;
+}
+.appointment_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    display: flex;
+    /* flex-direction: column; */
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+}
+
+.form1_sub{
+    display: flex;
+    flex-direction: column;
+}
+
+.form1_sub input{
+    padding: 10px 10px;
+    margin: 15px 20px;
+    width: 300px;
+}
+
+.form1_sub_sub{
+    display: flex;
+    flex-direction: column;
+}
+
+.form1_sub_sub input, .form1_sub_sub select{ 
+    padding: 10px 10px;
+    margin: 15px 20px;
+    width: 300px;
+    color:grey;
+}
+
+#text_area{
+    width: 640px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.img{
+    display: inline;
+}
+
+
+
+/* services */
+.services_text{
+    margin-top: 40px;
+    text-align: center;
+}
+.services_text h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: purple;
+}
+
+.services_text p{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.services_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_sub_box1, .sub_sub_box2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.sub_box1, .sub_box2, .sub_box3, .sub_box4, .sub_box5, .sub_box6{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    width: 350px;
+    height: 400px;
+    background-color: whitesmoke;
+    animation: 3s fadeInUp;
+}
+.sub_box1:hover, .sub_box2:hover, .sub_box3:hover, .sub_box4:hover, .sub_box5:hover, .sub_box6:hover{
+    transform:scale(1.05);
+    transition:transform 0.5s ease-in-out;
+}
+
+.sub_box1 span, .sub_box1 h2 .sub_box1 p{
+    margin-top: 5px;
+}
+
+.sub_box1 h2, .sub_box1 p, .sub_box2 h2, .sub_box2 p, .sub_box3 h2, .sub_box3 p, .sub_box4 h2, .sub_box4 p, .sub_box5 h2, .sub_box5 p, .sub_box6 h2, .sub_box6 p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bi_svg{
+    margin: 45px 65px;
+}
+
+.appointment_text{
+    text-align: left;
+    margin: 100px;
+}
+.appointment_text h2{
+    font-weight: bold;
+    font-size: 2.0rem;
+    color: black;
+}
+.appointment_text p{
+    font-size: 20px;
+}
+.form{
+    margin: 18px 20px;
+    height: 520px;
+    width: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#form_apnt{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    margin-left: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#apnt{
+    margin-left: 85px;
+}
+#apnt_form1{
+    margin-top: -10px;
+}
+
+.second_part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.call_now{
+    background-color: aliceblue;
+    margin: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+}
+
+.call_now h3, .call_now p{
+    text-align: center;
+}
+
+.callNow{
+    margin-top: 29px;
+    margin-bottom: -48px;
+    margin-left: 50px;
+
+}
+
+.mail_us_now{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+}
+
+.mail_us_now h3, .mail_us_now p{
+    text-align: center;
+}
+
+.Mail_now{
+    margin-top: 29px;
+    margin-bottom: -48px;
+    margin-left: 50px;
+}
+.first_part{
+    margin-left: 50px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.adress_contact{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 200px;
+    margin: 40px 20px;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+}
+
+.adress_contact:hover{
+    transform:scale(1.05);
+    transition:transform 0.5s ease-in-out;
+}
+
+.call_now_contact{
+    border: 2px solid red;
+    width: 400px;
+    height: 200px;
+    margin: 40px 20px;
+}
+
+.call_now_contact:hover{
+    transform:scale(1.05);
+    transition:transform 0.5s ease-in-out;
+}
+
+.mail_us_now_contact{
+    border: 2px solid red;
+    width: 400px;
+    height: 200px;
+    margin: 40px 20px;
+    background-color: aliceblue;
+}
+
+.mail_us_now_contact:hover{
+    transform:scale(1.05);
+    transition:transform 0.5s ease-in-out;
+}
+
+.sub_container1{
+    display: flex;
+    margin-top: 50px;
+}
+
+.contact_svg{
+    margin-top: 20px;
+}
+
+.text_contact{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.text_contact p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text_container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    width: 900px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    padding: 30px 50px;
+}
+
+.text_container h1{
+    color: black;
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+
+.text_container p{
+    font-size: 18px;
+}
+
+.form_contact{
+    padding: 20px 60px;
+    margin: 10px 30px;
+}
+
+.contact h1{
+    font-size: 3.5rem;
+    color: purple;
+    text-shadow: 5px 5px pink;
+}
+.name_email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name_email input{
+    width: 300px;
+    height: 50px;
+    padding: 0px 25px;
+    margin: 0;
+}
+
+.subject input{
+    width: 610px;
+    height: 50px;
+    padding: 0px 25px;
+    margin: 20px -46px;
+}
+
+.subject{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#email_contact_input{
+    padding: 0px 25px;
+    margin: 0;
+}
+
+.text_area_contact{
+    width: 612px;
+    padding: 0px 25px;
+    margin: 20px 3px;
+}
+
+.contact_button{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 70px;
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.contact_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_button:hover{
+    color: purple;
+    background-color: transparent;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+#container h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: purple;
+}
+#container h2{
+    font-weight: bold;
+    font-size: 2rem;
+    color: purple;
+}
+#container p{
+    font-size: 20px;
+}
+.doc_imgs{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.doc{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px ;
+    margin:20px 30px;
+    padding:20px 30px;
+    animation: 1.5s fadeInUp;
+    height:500px;
+    background-color: whitesmoke;
+}
+.doc h3{
+    margin-top: 40px;  
+    color:purple;
+}
+.doc h4{
+    margin-top: 20px;
+}
+.doc svg:hover{
+    color: purple;
+}
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+}
+/* footer */
+.footer_section1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: purple;
+    padding-left: 30px;
+    color: white;
+}
+.footer_about_icon{
+    display:flex;
+    justify-content: left;   
+}
+.footer_about_icon i{
+  margin-right: 20px;  
+}
+
+
+.footer_about{
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer_quick_links{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.footer_open_hours{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.footer_quick_links ul li{
+    list-style: none;
+}
+
+.footer_quick_links ul{
+    margin-left: -40px;
+}
+
+#hr1{
+    width: 90px;
+    height: 5px;
+    /* color: purple; */
+    background-color: white;
+    margin-left: 0px;
+    margin-bottom: 25px;
+}
+
+.table td{
+    /* padding: 2px; */
+    background-color: purple;
+    width: 100px;
+    color: white;
+}
+
+.footer_section2 h4{
+    background-color: rgb(81, 2, 81);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 0px;
+}
+.appointment_button{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+}
+
+.appointment_button:hover{
+    color: purple;
+    background-color: transparent;
+}
+/* doctor */
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+#container h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: purple;
+}
+#container h2{
+    font-weight: bold;
+    font-size: 2rem;
+    color: purple;
+}
+#container p{
+    font-size: 20px;
+}
+.doc_imgs{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.doc{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px ;
+    margin:20px 30px;
+    padding:20px 30px;
+    animation: 1.5s fadeInUp;
+    height:500px;
+    background-color: whitesmoke;
+}
+.doc h3{
+    margin-top: 40px;  
+    color:purple;
+}
+.doc h4{
+    margin-top: 20px;
+}
+.doc svg:hover{
+    color: purple;
+}
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+}
+
+.doc h3,.doc h4{
+    text-align: center;
+}
+
+/* departments */
+#departments{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;   
+}
+#departments h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: purple;
+}
+#departments h2{
+    font-size: 2rem;
+    color: purple;
+}
+#departments p{
+    font-size: 20px;
+}
+
+.neurology{
+    display:flex;
+    margin-top: 30px;
+    padding:40px 40px;
+    
+}
+.cardiology{
+    display:flex;
+    margin-top: 30px;
+    padding:40px 40px;
+    
+}
+.orthopedic{
+    display:flex;
+    margin-top: 30px;
+    padding:40px 40px;
+    
+}
+.cardio_info{
+    margin:10px 30px;
+    padding:30px 30px;
+    
+}
+.neuro_info{
+    margin:10px 30px;
+    padding:30px 30px;
+}
+.ortho_info{
+    margin:10px 30px;
+    padding:30px 30px;
+}
+
+.cardio_info h3,.neuro_info h3,.ortho_info h3{
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px grey;
+}
+.cardio_info p,.neuro_info p,.ortho_info p{
+     margin-top: 30px;
+     font-size: 20px;
+}
+.cardiology img,.neurology img,.orthopedic img{
+    box-shadow: 2px 2px 3px 3px grey;
+}
+.hr2{
+    width:100px;
+    height:7px;
+    background-color: purple;
+}
+
+.dept_btn{
+    margin-top: 20px;
+    padding:0px 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+    
+}
+.dept_btn:hover{
+    color: purple;
+    border: 2px solid purple;
+    background-color: white;
+    
+}
+
+
+
+
+
