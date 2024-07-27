@@ -2,7 +2,13 @@
 
 Welcome to **WellnessWise** – an intuitive healthcare hospital management app crafted with HTML and CSS. Designed to streamline hospital operations and enhance patient care, WellnessWise offers a clean and responsive interface for efficient management.
 
-![WellnessWise Screenshot](images/wellnesswise_screenshot.png)
+![WellnessWise Screenshot](image2.1.png)
+
+![WellnessWise Screenshot](image2.2.png)
+
+![WellnessWise Screenshot](image2.3.png)
+
+![WellnessWise Screenshot](image2.4.png)
 
 ## **Features**
 
