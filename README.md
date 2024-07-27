@@ -72,7 +72,9 @@ Open index.html in your preferred web browser.
 ## **Contact**:
 **For any inquiries or suggestions, feel free to reach out**:
 - Email: chatterjeeanata091@gmail.com
-- Github: 
+- Github: https://github.com/Ananta2545
+
+**Thank you for exploring WellnessWise! We hope our app enhances the efficiency and quality of healthcare management at your hospital.**
 
 
 
